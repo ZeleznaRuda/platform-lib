@@ -1,7 +1,0 @@
-[package]
-name = "platform"
-version = "1.0.0"
-author = "CLIB"
-description = "platform for c++"
-os = ["Windows", "Linux", "Darwin"]
-
