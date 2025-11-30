@@ -1,7 +1,10 @@
 name: platform
 
-version: 1.0.0
-author: CLIB
+version: 1.0.8
+major-version: 1
+minor-version: 0
+patch-version: 8
+
 description: platform for c++
 
 Windows: true 
