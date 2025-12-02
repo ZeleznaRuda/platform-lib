@@ -1,14 +1,9 @@
 name: platform
-
+description: "platform for c++"
 version: 1.0.8
-major-version: 1
-minor-version: 0
-patch-version: 8
 
-description: platform for c++
+authors: ["Rudolf Mueller"]
+license: MIT
+websites: ["https://rudolfmuller.github.io/clibx-package-manager/","https://github.com/rudolfmuller/platform-lib/"]
 
-Windows: true 
-Linux: true 
-Darwin: true
-
-
+dependencies: ["https://github.com/rudolfmuller/platform-lib"]
