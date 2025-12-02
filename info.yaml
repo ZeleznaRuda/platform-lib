@@ -6,4 +6,4 @@ authors: ["Rudolf Mueller"]
 license: MIT
 websites: ["https://rudolfmuller.github.io/clibx-package-manager/","https://github.com/rudolfmuller/platform-lib/"]
 
-dependencies: ["https://github.com/rudolfmuller/platform-lib"]
+dependencies: ["https://github.com/rudolfmuller/platform-lib.git"]
