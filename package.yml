@@ -6,4 +6,10 @@ authors: ["Rudolf Mueller"]
 license: MIT
 websites: ["https://rudolfmuller.github.io/clibx-package-manager/","https://github.com/rudolfmuller/platform-lib/"]
 
-dependencies: ["https://github.com/rudolfmuller/platform-lib.git"]
+
+build-mode: shared # shared | static | simple
+build-compiler: g++ # g++ | gcc
+build-cflags: ["-O2", "-Wall"]
+build-dependencies: ["syshit@1.0.1"]
+build-include-directory: "include/"
+build-source-files: ["source/*.cpp"]
