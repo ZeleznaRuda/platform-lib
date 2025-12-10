@@ -7,7 +7,7 @@ license: MIT
 websites: ["https://rudolfmuller.github.io/clibx-package-manager/","https://github.com/rudolfmuller/platform-lib/"]
 
 
-build-mode: shared # shared | static | simple
+build-mode: static # shared | static | simple
 build-compiler: g++ # g++ | gcc
 build-cflags: [-O2, -Wall]
 build-dependencies: ["syshit@1.0.1"]
